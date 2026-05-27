@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+  LANDING PAGE — Lotto Check
+  Optional, but having an index.html means https://USERNAME.github.io/
+  resolves to something instead of a 404.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lotto Check</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffdbe9 0%, #d2c7ff 50%, #b4ebff 100%);
+    color: #1a1612;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.6;
+  }
+  .card {
+    max-width: 480px;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 24px;
+    padding: 36px 32px;
+    text-align: center;
+    box-shadow: 0 24px 48px rgba(0,0,0,0.12);
+  }
+  h1 {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #ff4789, #9e61ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .tagline {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    color: rgba(26,22,18,0.55);
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+  p {
+    color: #1a1612;
+    margin-bottom: 28px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .link {
+    display: block;
+    padding: 14px 18px;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 14px;
+    color: #1a1612;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    transition: transform 0.15s, background 0.15s;
+  }
+  .link:hover {
+    background: rgba(255,255,255,0.8);
+    transform: translateY(-1px);
+  }
+  .link .arrow {
+    float: right;
+    color: #b1281f;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Lotto Check</h1>
+    <div class="tagline">Tap · Check · Win</div>
+    <p>A simple offline iOS utility for checking Pick 3, Pick 4, and Pick 5 lottery tickets. No accounts, no internet, no data collection.</p>
+    <div class="links">
+      <a class="link" href="support.html">Support &amp; FAQ <span class="arrow">→</span></a>
+      <a class="link" href="privacy.html">Privacy Policy <span class="arrow">→</span></a>
+    </div>
+  </div>
+</body>
+</html>
